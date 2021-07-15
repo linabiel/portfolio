@@ -1,16 +1,31 @@
-import React from 'react';
+import React, {Component} from 'react';
+import {Route, NavLink, HashRouter} from "react-router-dom";
+import About from './About';
 
-function Header() {
 
-    return(
+class Header extends Component {
 
-        <>        
-            <li className='nav-bar'><a className='nav-bar' href="/portfolio/">Home</a></li>
-            <li className='nav-bar'><a className='nav-bar' href="/">About Me</a></li>
-            <li className='nav-bar'><a className='nav-bar' href="/">Projects</a></li>
-        </>
-    )
-}
+    render() {
+
+            return (
+                <HashRouter>
+
+                    <div>
+                        <li className='nav-bar'><NavLink to="/portfolio/">Home</NavLink></li>
+                        <li className='nav-bar'><NavLink to="/about">About</NavLink></li>
+                        <li className='nav-bar'><NavLink to="/projects">Projects</NavLink></li>
+                    </div>
+
+                    <div className="routes">
+                        <Route path="/about" component={About} />
+                        {/* <Route path="/contact" component={Projects} /> */}
+                    </div>
+
+                </HashRouter>
+
+            )
+        }
+    }
 
 export default Header;
 
