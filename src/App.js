@@ -1,10 +1,10 @@
 import './App.css';
-import Homepage from './components/homepage';
+import Portfolio from './containers/Portfolio';
 
 function App() {
   return (
     <>
-        <Homepage/>
+        <Portfolio/>
     </>
   );
 }
