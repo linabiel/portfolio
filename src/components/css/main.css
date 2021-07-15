@@ -1,8 +1,28 @@
-.main, p, .about {
-    display: flex;
+#main-about {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #f4a261;
+    margin: 100px;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.7;
     flex-direction: column;
-    align-self: center;
-    color: aqua;
+}
 
-    align-self: flex-end;
+#main-projects {
+    display:flex;
+    justify-content: space-around;
+
+}
+
+.links {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: x-large;
+    color: #e76f51;
 }

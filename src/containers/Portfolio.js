@@ -37,10 +37,13 @@ class Portfolio extends Component {
 
 
 
-                <div className='nav-bar-item'>
+                <div id='main-about'>
                     <Route path="/about" component={About} />
+                </div> 
+                <div id='main-projects'>
                     <Route path="/projects" component={Projects} />
                 </div>
+
 
 
 
