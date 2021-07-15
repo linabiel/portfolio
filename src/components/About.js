@@ -16,6 +16,14 @@ class About extends Component {
                     technologies, I am excited to start a career in a new industry, where I can build on
                     my existing skills and bring in the creativity I nourished as a freelance art critic.
                 </h2>
+
+                <h2>
+                    CodeClan Graduate
+                <h2>
+
+                </h2>
+                    A 16 week Professional Software Development Course that is accredited by the SQA. 800+ hours of learning in-demand methodology, languages, databases and frameworks. Solo and Group Projects, pair-programming, coding and presenting working apps in under a week.
+                </h2>
             </div>
         )
     }

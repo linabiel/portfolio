@@ -8,10 +8,6 @@
     font-size: 30px;
 }
 
-#titles {
-    margin: 50px;;
-}
-
 .nav-bar {
     display: flex;
     align-items: center;
@@ -23,6 +19,7 @@
     opacity: 0.6;
     height: 60px;
     font-family: 'MuseoModerno', cursive;
+    margin-bottom: 70px;
 }
 
 a {

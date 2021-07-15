@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow:800&display=swap');
+
 #main-about {
     display:flex;
     flex-wrap: wrap;
@@ -32,4 +34,12 @@
 .profect-descr {
     margin: 50px;
     text-transform: none;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.7;
 }
+
+.tech-stack {
+    margin: 50px;
+}
+

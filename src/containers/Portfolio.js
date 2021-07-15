@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {Route, NavLink, HashRouter} from "react-router-dom";
 
+import Home from '../components/Home';
 import About from '../components/About';
 import Projects from '../components/Projects';
 
@@ -25,28 +26,18 @@ class Portfolio extends Component {
 
 
 
-                <div id='titles'>
-                    <div className="title">
-                        <h1>Lina Biel</h1>
-                    </div>
-
-                    <div className="title">
-                        <h1>Sofware Developer</h1>
-                    </div>
-                </div>
-
-
-
-
                 <div>
+                    <Route id='main-home' path="/home" component={Home} />
+
                     <Route id='main-about' path="/about" component={About} />
+
                     <Route id='main-projects' path="/projects" component={Projects} />
                 </div> 
 
 
 
 
-                <footer>&copy; 2021</footer>
+                <footer>&copy; 2021 Lina Biel</footer>
 
             </HashRouter>
 
