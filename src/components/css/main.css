@@ -3,7 +3,8 @@
     flex-wrap: wrap;
     justify-content: center;
     color: #f4a261;
-    margin: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
     text-align: justify;
     text-justify: inter-word;
     line-height: 1.7;
@@ -12,6 +13,7 @@
 
 #main-projects {
     display:flex;
+    flex-direction: row;
     justify-content: space-around;
 
 }
@@ -25,4 +27,9 @@
     text-transform: uppercase;
     font-size: x-large;
     color: #e76f51;
+}
+
+.profect-descr {
+    margin: 50px;
+    text-transform: none;
 }

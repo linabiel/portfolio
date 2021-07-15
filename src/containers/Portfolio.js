@@ -25,25 +25,23 @@ class Portfolio extends Component {
 
 
 
+                <div id='titles'>
+                    <div className="title">
+                        <h1>Lina Biel</h1>
+                    </div>
 
-                <div className="title">
-                    <h1>Lina Biel</h1>
+                    <div className="title">
+                        <h1>Sofware Developer</h1>
+                    </div>
                 </div>
 
-                <div className="title">
-                    <h1>Sofware Developer</h1>
-                </div>
 
 
 
-
-                <div id='main-about'>
-                    <Route path="/about" component={About} />
+                <div>
+                    <Route id='main-about' path="/about" component={About} />
+                    <Route id='main-projects' path="/projects" component={Projects} />
                 </div> 
-                <div id='main-projects'>
-                    <Route path="/projects" component={Projects} />
-                </div>
-
 
 
 
