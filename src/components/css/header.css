@@ -1,28 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300&display=swap');
 
-#title {
+.title {
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
     color: #caf0f8;
 }
 
-.nav-bar, a {
+.nav-bar {
     display: flex;
     align-items: center;
-    padding-right: 60px;
-    list-style: none;
-    text-decoration: none;
     color: #caf0f8;
     font-weight: bold;
-}
-
-#header {
     display: flex;
     justify-content: flex-end;
     background-color: black;
     opacity: 0.6;
     height: 60px;
     font-family: 'MuseoModerno', cursive;
-
 }
+
+a {
+    padding-right: 60px;
+    text-decoration: none;
+    color: #caf0f8;
+}
+
+.nav-bar-item {
+    list-style: none;
+}
+
+

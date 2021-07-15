@@ -1,24 +1,56 @@
-import React from 'react';
-import Header from '../components/Header';
+import React, {Component} from 'react';
+import {Route, NavLink, HashRouter} from "react-router-dom";
+
+import About from '../components/About';
+import Projects from '../components/Projects';
+
 import '../components/css/header.css';
 import '../components/css/footer.css';
+import '../components/css/main.css';
 
-function Portfolio() {
 
-    return (
+class Portfolio extends Component {
 
-            <>
-                <div id="header">
-                    <Header />
+    render() {
+
+        return (
+
+            <HashRouter>
+
+                <div className='nav-bar'>
+                    <li className='nav-bar-item'><NavLink to="/home/">Home</NavLink></li>
+                    <li className='nav-bar-item'><NavLink to="/about">About</NavLink></li>
+                    <li className='nav-bar-item'><NavLink to="/projects">Projects</NavLink></li>
                 </div>
-                <div id="title">
-                    <h1>Lina's Portfolio</h1>
 
+
+
+
+                <div className="title">
+                    <h1>Lina Biel</h1>
                 </div>
+
+                <div className="title">
+                    <h1>Sofware Developer</h1>
+                </div>
+
+
+
+
+                <div className='nav-bar-item'>
+                    <Route path="/about" component={About} />
+                    <Route path="/projects" component={Projects} />
+                </div>
+
+
+
+
                 <footer>&copy; 2021</footer>
-            </>
 
-    )
+            </HashRouter>
+
+        )
+    }
 }
 
 export default Portfolio;

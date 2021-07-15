@@ -1,0 +1,8 @@
+.main, p, .about {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    color: aqua;
+
+    align-self: flex-end;
+}
