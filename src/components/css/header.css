@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300&display=swap');
 
-.title {
+.title, h1 {
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
     color: #2a9d8f;
     font-size: 30px;
+    font-family: 'MuseoModerno', cursive;
 }
 
 .nav-bar {
@@ -19,7 +20,6 @@
     opacity: 0.6;
     height: 60px;
     font-family: 'MuseoModerno', cursive;
-    margin-bottom: 70px;
 }
 
 a {
@@ -31,5 +31,4 @@ a {
 .nav-bar-item {
     list-style: none;
 }
-
 
