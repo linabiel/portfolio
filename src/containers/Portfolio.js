@@ -16,23 +16,23 @@ class Portfolio extends Component {
 
         return (
 
+
             <HashRouter>
 
                 <div className='nav-bar'>
-                    <li className='nav-bar-item'><NavLink to="/home/">Home</NavLink></li>
+                    <li className='nav-bar-item'><NavLink to="/">Home</NavLink></li>
                     <li className='nav-bar-item'><NavLink to="/about">About</NavLink></li>
                     <li className='nav-bar-item'><NavLink to="/projects">Projects</NavLink></li>
                 </div>
 
 
-
                 <div>
-                    <Route id='main-home' path="/home" component={Home} />
+                    <Route id='main-home' path="" component={Home} />
 
                     <Route id='main-about' path="/about" component={About} />
 
                     <Route id='main-projects' path="/projects" component={Projects} />
-                </div> 
+                </div>
 
 
 
