@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow:800&display=swap');
+
+#main-about {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #f4a261;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.7;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+h2 {
+    margin: 0px;
+}
+
+#main-projects {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.link {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    /* text-decoration: none; */
+    text-transform: uppercase;
+    color: #e76f51;
+    width: 100%;
+}
+
+.project-card {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    font-size: large;
+    color: #e76f51;
+    margin-top: 10px;
+}
+
+.project-descr {
+    align-content: flex-start;
+    text-transform: none;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.7;
+    margin: 50px;
+    height: 25%;
+}
+
+.tech-stack-title {
+    margin-right: 50px;
+    margin-left: 50px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    width: 100%;
+    color: #00f5d4;
+
+
+}
+
+.tech-stack {
+    margin-right: 50px;
+    margin-left: 50px;
+    line-height: 1.7;
+    color: #00f5d4;
+}
+
+.image1 {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    content: url('../images/travel-needs.png');
+    height: 400px;
+    margin-top: 40px;
+}
+
+.image2 {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    content: url('../images/baldur.png');
+    height: 400px;
+    margin-top: 40px;
+}
+
+.image3 {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    content: url('../images/baldur.png');
+    height: 400px;
+    margin-top: 40px;
+}

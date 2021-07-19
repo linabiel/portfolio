@@ -9,11 +9,11 @@ class Home extends Component {
             <div id='titles'>
 
                 <div className="title">
-                    <h1>Lina Biel</h1>
+                    <h1>SOFTWARE DEVELOPER</h1>
                 </div>
 
                 <div className="title">
-                    <h1>Sofware Developer</h1>
+                    <h1>Lina Biel</h1>
                 </div>
 
             </div>

@@ -14,7 +14,8 @@ import Projects from '../components/Projects';
 
 import '../components/css/header.css';
 import '../components/css/footer.css';
-import '../components/css/main.css';
+import '../components/css/project.css';
+import '../components/css/about.css';
 
 
 class Portfolio extends Component {
@@ -28,15 +29,15 @@ class Portfolio extends Component {
                 <Router>
 
                     <div className='nav-bar'>
-                        <li className='nav-bar-item'><Link to="/">Home</Link></li>
-                        <li className='nav-bar-item'><Link to="/about">About</Link></li>
-                        <li className='nav-bar-item'><Link to="/projects">Projects</Link></li>
+                        <li className='nav-bar-item'><Link className='nav-bar-item' to="/portfolio">Home</Link></li>
+                        <li className='nav-bar-item'><Link className='nav-bar-item' to="/about">About</Link></li>
+                        <li className='nav-bar-item'><Link className='nav-bar-item' to="/projects">Projects</Link></li>
                     </div>
 
 
                     <div>
                     <Switch>
-                        <Route id='main-home' exact path="/" component={Home} />
+                        <Route id='main-home' exact path="/portfolio" component={Home} />
                         <Route id='main-about' exact path="/about" component={About} />
                         <Route id='main-projects' exact path="/projects" component={Projects} />
                     </Switch>
