@@ -30,9 +30,9 @@ class Portfolio extends Component {
                         </div>
 
                         <div className='nav-bar'>
-                            <li className='nav-bar-item'><Link className='nav-bar-item' to="/portfolio">Home</Link></li>
-                            <li className='nav-bar-item'><Link className='nav-bar-item' to="/portfolio/about">About</Link></li>
-                            <li className='nav-bar-item'><Link className='nav-bar-item' to="/portfolio/projects">Projects</Link></li>
+                            <li className='nav-bar-item'><Link className='nav-bar-item' to="">Home</Link></li>
+                            <li className='nav-bar-item'><Link className='nav-bar-item' to="/about">About</Link></li>
+                            <li className='nav-bar-item'><Link className='nav-bar-item' to="/projects">Projects</Link></li>
                         </div>
 
                     </div>
@@ -41,9 +41,9 @@ class Portfolio extends Component {
 
                     <div>
                         <Switch>
-                            <Route id='main-home' exact path="/portfolio" component={Home} />
-                            <Route id='main-about' exact path="/portfolio/about" component={About} />
-                            <Route id='main-projects' exact path="/portfolio/projects" component={Projects} />
+                            <Route id='main-home' exact path="" component={Home} />
+                            <Route id='main-about' exact path="/about" component={About} />
+                            <Route id='main-projects' exact path="/projects" component={Projects} />
                         </Switch>
                     </div>
 
