@@ -1,11 +1,16 @@
 .carousel {
-
     margin-left: 200px;
     margin-right: 200px;
 }
 
 .image {
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: auto;
     height: 700px;
+    margin: auto;
 } 
 
