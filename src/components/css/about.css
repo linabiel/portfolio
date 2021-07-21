@@ -17,10 +17,21 @@
 
 }
 
-#cc-grad {
+.cc-grad {
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
-    color: #f4a261;
+    color: #00f5d4;
     margin: 50px;
+    text-decoration: none;
 }
+
+a:hover {
+    /* text-decoration: underline; */
+    color: #ff0054;
+  }
+  
+  a:active {
+    color: black;
+  }
+  

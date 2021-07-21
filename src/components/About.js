@@ -17,8 +17,8 @@ class About extends Component {
                     my existing skills and bring in the creativity I nourished as a freelance art critic.
                 </h2>
 
-                <h2 id='cc-grad'>
-                    CodeClan Graduate
+                <h2 className='cc-grad'>
+                    <a className='cc-grad' href='https://codeclan.com/'>CodeClan Graduate</a>
                 </h2>
 
                 <h2 className='main-about'>

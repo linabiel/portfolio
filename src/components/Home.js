@@ -35,13 +35,13 @@ class Home extends Component {
 
                     <Slider className='carousel'{...settings}>
                         <div>
-                            <img src={Travel} className='image' />
+                            <a href='https://travel-needs.herokuapp.com/'> <img src={Travel} className='image' /></a>
                         </div>
                         <div>
-                            <img src={Weather} className='image' />
+                            <a href='https://travel-needs.herokuapp.com/'> <img src={Weather} className='image' /></a>
                         </div>
                         <div>
-                            <img src={Baldur} className='image' />
+                            <a href='https://betrayal-at-baldurs-gate-react.herokuapp.com/'> <img src={Baldur} className='image' /></a>
                         </div>
 
                     </Slider>
