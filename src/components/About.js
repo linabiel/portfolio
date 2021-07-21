@@ -6,7 +6,7 @@ class About extends Component {
 
         return (
 
-            <div className='main-about'>
+            <div id='main-container'>
                 <h2 className='main-about'>
                     I am an inquisitive Software Developer, on a constant mission to expand my
                     knowledge. Throughout my career in the Art and Culture sector, I have developed

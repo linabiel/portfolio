@@ -13,7 +13,7 @@ class Projects extends Component {
                         <a className='link' href="https://travel-needs.herokuapp.com">Travel Needs</a>
                     </li>
                     <div className='image1'>
-                        <img className='image1' src="./images/triangle-mini.jpeg" />
+                        <img id='travel' src="./images/triangle-mini.jpeg" />
                     </div>
 
                     <p className='project-descr'>
@@ -32,7 +32,7 @@ class Projects extends Component {
                         <a className='link' href="https://cbc-weather-app.herokuapp.com/">CBC Weather</a>
                     </li>
                     <div className='image2'>
-                        <img className='image2' src="./images/baldur.jpeg" />
+                        <img id='weather' src="./images/weather.jpeg" />
                     </div>
                     <p className='project-descr'>
                         An educational Weather app built with JavaScript, APIs, React, Express and MongoDB. A user can view information on the seven days weather forecast for a particular city in the world, save the city to the database, and find the city on Google Maps to refresh geographical knowledge.
@@ -50,7 +50,7 @@ class Projects extends Component {
                         <a className='link' href="https://betrayal-at-baldurs-gate-react.herokuapp.com/">Betrayal at Baldur's Gate</a>
                     </li>
                     <div className='image3'>
-                        <img className='image3' src="./images/baldur.png" />
+                        <img id='baldur' src="./images/baldur.png" />
                     </div>
                     <p className='project-descr'>
                         A web app game version of the board game Betrayal at Baldur’s Gate build using Spring Boot and H2 database for the backend and ReactJS for the front end. The user can move across the board and get a randomly selected card or a monster to fight.

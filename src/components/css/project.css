@@ -61,32 +61,28 @@
     color: #00f5d4;
 }
 
-.image1 {
+.image1, .image2, .image3 {
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
+    margin-top: 40px;
+}
+
+#travel {
     content: url('../images/travel.png');
     height: 400px;
-    margin-top: 40px;
+    width: 500px;
 }
 
-.image2 {
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
+#weather {
     content: url('../images/weather.png');
     height: 400px;
-    margin-top: 40px;
+    width: 500px;
 }
 
-.image3 {
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
+#baldur {
     content: url('../images/baldur.png');
     height: 400px;
-    margin-top: 40px;
+    width: 500px;
 }

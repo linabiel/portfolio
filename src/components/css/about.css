@@ -1,18 +1,26 @@
+#main-container {
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 50px;
+}
+
 .main-about {
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
     color: #f4a261;
-    margin-left: 300px;
-    margin-right: 300px;
     text-align: justify;
-    text-justify: inter-word;
     line-height: 1.8;
     flex-direction: column;
-    margin-top: 50px;
     font-size: large;
+    font-weight: 300;
+
 }
 
 #cc-grad {
-    margin: 0px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #f4a261;
+    margin: 50px;
 }
