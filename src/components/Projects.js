@@ -10,7 +10,7 @@ class Projects extends Component {
 
                 <div className='project-card'>
                     <li className='link'>
-                        <a className='link' href="https://travel-needs.herokuapp.com">Travel Needs</a>
+                        <a className='link-title' href="https://travel-needs.herokuapp.com">Travel Needs</a>
                     </li>
                     <div className='image1'>
                         <img id='travel' src="./images/triangle-mini.jpeg" />
@@ -29,7 +29,7 @@ class Projects extends Component {
 
                 <div className='project-card'>
                     <li className='link'>
-                        <a className='link' href="https://cbc-weather-app.herokuapp.com/">CBC Weather</a>
+                        <a className='link-title' href="https://cbc-weather-app.herokuapp.com/">CBC Weather</a>
                     </li>
                     <div className='image2'>
                         <img id='weather' src="./images/weather.jpeg" />
@@ -47,7 +47,7 @@ class Projects extends Component {
 
                 <div className='project-card'>
                     <li className='link'>
-                        <a className='link' href="https://betrayal-at-baldurs-gate-react.herokuapp.com/">Betrayal at Baldur's Gate</a>
+                        <a className='link-title' href="https://betrayal-at-baldurs-gate-react.herokuapp.com/">Betrayal at Baldur's Gate</a>
                     </li>
                     <div className='image3'>
                         <img id='baldur' src="./images/baldur.png" />

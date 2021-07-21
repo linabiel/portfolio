@@ -13,10 +13,13 @@
     flex-wrap: wrap;
     justify-content: center;
     list-style: none;
-    text-decoration: none;
     text-transform: uppercase;
-    color: #e76f51;
     width: 100%;
+}
+
+.link-title {
+    text-decoration: none;
+    color: #e76f51;
 }
 
 .project-card {
@@ -50,13 +53,12 @@
     align-content: flex-start;
     width: 100%;
     color: #00f5d4;
-
-
 }
 
 .tech-stack {
     margin-right: 50px;
     margin-left: 50px;
+    margin-bottom: 200px;
     line-height: 1.7;
     color: #00f5d4;
 }
@@ -67,22 +69,31 @@
     justify-content: center;
     align-items: flex-start;
     margin-top: 40px;
+    border: 1px solid #000;
 }
 
 #travel {
     content: url('../images/travel.png');
     height: 400px;
     width: 500px;
+    transition: transform .2s;
 }
 
 #weather {
     content: url('../images/weather.png');
     height: 400px;
     width: 500px;
+    transition: transform .2s;
+    transform: scale(1);
+    overflow: hidden;
 }
 
 #baldur {
     content: url('../images/baldur.png');
     height: 400px;
     width: 500px;
+    transition: transform .2s;
+}
+#travel:hover, #weather:hover, #baldur:hover {
+    transform: scale(1.2);
 }

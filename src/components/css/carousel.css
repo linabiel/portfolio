@@ -1,6 +1,6 @@
 .carousel {
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 10vh;
+    margin-right: 10vh;
 }
 
 .image {
@@ -10,7 +10,7 @@
     align-items: center;
     align-content: center;
     width: auto;
-    height: 700px;
+    height: 60vh;
     margin: auto;
 }
 

@@ -27,11 +27,18 @@
 }
 
 a:hover {
-    /* text-decoration: underline; */
     color: #ff0054;
   }
   
-  a:active {
+a:active {
     color: black;
-  }
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: #fdfcdc; 
+    font-size: 65px;
+}
+
+
   
