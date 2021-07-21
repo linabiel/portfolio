@@ -17,11 +17,9 @@
 
 .nav-bar {
     display: flex;
-    align-items: center;
+    justify-content: space-between;
     color: #caf0f8;
     font-weight: bold;
-    display: flex;
-    justify-content: flex-end;
     background-color: black;
     opacity: 0.6;
     height: 60px;
@@ -30,8 +28,23 @@
 }
 
 .nav-bar-item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
     list-style: none;
     padding-right: 60px;
+    text-decoration: none;
+    color: #caf0f8;
+}
+
+.nav-bar-link {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    list-style: none;
+    padding-left: 60px;
     text-decoration: none;
     color: #caf0f8;
 }
