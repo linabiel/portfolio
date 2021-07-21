@@ -18,7 +18,7 @@ class About extends Component {
                 </h2>
 
                 <h2 className='cc-grad'>
-                    <a className='cc-grad' href='https://codeclan.com/'>CodeClan Graduate</a>
+                    <a className='cc-grad' href='https://codeclan.com/' target='_blank' rel="noreferrer">CodeClan Graduate</a>
                 </h2>
 
                 <h2 className='main-about'>
