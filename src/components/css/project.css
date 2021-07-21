@@ -70,6 +70,8 @@
     align-items: flex-start;
     margin-top: 40px;
     border: 1px solid #000;
+    height: 400px;
+    width: 500px;
 }
 
 #travel {
@@ -84,8 +86,6 @@
     height: 400px;
     width: 500px;
     transition: transform .2s;
-    transform: scale(1);
-    overflow: hidden;
 }
 
 #baldur {
@@ -96,4 +96,6 @@
 }
 #travel:hover, #weather:hover, #baldur:hover {
     transform: scale(1.2);
+    height: 400px;
+    width: 500px;
 }
