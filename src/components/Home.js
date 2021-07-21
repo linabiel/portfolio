@@ -3,9 +3,9 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import Travel from '../components/images/travelslide.png';
-import Weather from '../components/images/weatherslide.png';
-import Baldur from '../components/images/baldurslide.png';
+import Travel from '../components/images/travelslide.jpeg';
+import Weather from '../components/images/weatherslide.jpeg';
+import Baldur from '../components/images/baldurslide.jpeg';
 
 class Home extends Component {
 

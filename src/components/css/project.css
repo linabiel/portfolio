@@ -75,21 +75,21 @@
 }
 
 #travel {
-    content: url('../images/travel.png');
+    content: url('../images/travel.jpeg');
     height: 400px;
     width: 500px;
     transition: transform .2s;
 }
 
 #weather {
-    content: url('../images/weather.png');
+    content: url('../images/weather.jpeg');
     height: 400px;
     width: 500px;
     transition: transform .2s;
 }
 
 #baldur {
-    content: url('../images/baldur.png');
+    content: url('../images/baldur.jpeg');
     height: 400px;
     width: 500px;
     transition: transform .2s;
