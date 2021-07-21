@@ -39,7 +39,7 @@ class Home extends Component {
                             <a href='https://travel-needs.herokuapp.com/'> <img src={Travel} className='image' /></a>
                         </div>
                         <div>
-                            <a href='https://travel-needs.herokuapp.com/'> <img src={Weather} className='image' /></a>
+                            <a href='https://cbc-weather-app.herokuapp.com/'> <img src={Weather} className='image' /></a>
                         </div>
                         <div>
                             <a href='https://betrayal-at-baldurs-gate-react.herokuapp.com/'> <img src={Baldur} className='image' /></a>
