@@ -7,8 +7,6 @@
     margin-left: 100px;
     margin-right: 100px;
     padding-bottom: 40px;
-    /* display: inline-block; */
-
 }
 
 .link {
@@ -28,9 +26,6 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
-    display: inline-block;       
-
-    /* align-content: flex-start; */
     font-size: large;
     color: #e76f51;
     margin: 3%;
