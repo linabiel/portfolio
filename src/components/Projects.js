@@ -6,9 +6,9 @@ class Projects extends Component {
     render() {
 
         return (
-            <div id='main-projects'>
+            <div id='main-project'>
 
-
+            
                 <div className='project-card'>
                     <li className='link'>
                         <a className='link-title' href="https://travel-needs.herokuapp.com" target='_blank' rel="noreferrer">Travel Needs</a>
@@ -70,3 +70,6 @@ class Projects extends Component {
 }
 
 export default Projects;
+
+
+
