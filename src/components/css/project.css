@@ -7,6 +7,7 @@
     margin-left: 100px;
     margin-right: 100px;
     padding-bottom: 40px;
+    flex-grow: 1;
 }
 
 .link {
@@ -22,11 +23,10 @@
 }
 
 .project-card {
-    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
-    font-size: large;
+    font-size: medium;
     color: #e76f51;
     margin: 3%;
     flex: 1;
@@ -37,7 +37,8 @@
     flex-direction: column;
     text-transform: none;
     text-align: justify;
-    line-height: 1.7; 
+    line-height: 1.7;
+    min-height: 300px;
 }
 
 .tech-stack-title {
