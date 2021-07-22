@@ -6,11 +6,12 @@ import Home from '../components/Home';
 import About from '../components/About';
 import Projects from '../components/Projects';
 
+import '../components/css/main.css';
 import '../components/css/header.css';
-import '../components/css/footer.css';
-import '../components/css/project.css';
-import '../components/css/about.css';
 import '../components/css/carousel.css';
+import '../components/css/about.css';
+import '../components/css/project.css';
+import '../components/css/footer.css';
 
 
 class Portfolio extends Component {
@@ -39,7 +40,7 @@ class Portfolio extends Component {
 
 
 
-                    <div>
+                    <div id='main'>
                         <Switch>
                             <Route id='main-home' exact path="/portfolio" component={Home} />
                             <Route id='main-about' exact path="/about" component={About} />
