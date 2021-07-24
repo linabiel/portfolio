@@ -1,5 +1,9 @@
 import React, {Component} from "react";
 
+import Travel from '../components/images/travelslide.jpeg';
+import Weather from '../components/images/weatherslide.jpeg';
+import Baldur from '../components/images/baldurslide.jpeg';
+
 
 class Projects extends Component {
 
@@ -14,7 +18,7 @@ class Projects extends Component {
                         <a className='link-title' href="https://travel-needs.herokuapp.com" target='_blank' rel="noreferrer">Travel Needs</a>
                     </li>
                     <div className='image1'>
-                        <a href='https://travel-needs.herokuapp.com' target='_blank' rel="noreferrer"><img id='travel' src="./images/travel.jpeg" loading="lazy" alt='' /></a>
+                        <a href='https://travel-needs.herokuapp.com' target='_blank' rel="noreferrer"><img id='travel' src={Travel} loading="lazy" alt='' /></a>
                     </div>
                     <p className='tech-stack-title'>
                         Tech Stack:
@@ -32,7 +36,7 @@ class Projects extends Component {
                         <a className='link-title' href="https://cbc-weather-app.herokuapp.com/" target='_blank' rel="noreferrer">CBC Weather</a>
                     </li>
                     <div className='image2'>
-                        <a href='https://cbc-weather-app.herokuapp.com/' target='_blank' rel="noreferrer"><img id='weather' src="./images/weather.jpeg" loading="lazy" alt='' /></a>
+                        <a href='https://cbc-weather-app.herokuapp.com/' target='_blank' rel="noreferrer"><img id='weather' src={Weather} loading="lazy" alt='' /></a>
                     </div>
                     <p className='tech-stack-title'>
                         Tech Stack:
@@ -50,7 +54,7 @@ class Projects extends Component {
                         <a className='link-title' href="https://betrayal-at-baldurs-gate-react.herokuapp.com/" target='_blank' rel="noreferrer">Betrayal at Baldur's Gate</a>
                     </li>
                     <div className='image3'>
-                        <a href='https://betrayal-at-baldurs-gate-react.herokuapp.com/' target='_blank' rel="noreferrer"><img id='baldur' src="./images/baldur.jpeg" loading="lazy" alt='' /></a>
+                        <a href='https://betrayal-at-baldurs-gate-react.herokuapp.com/' target='_blank' rel="noreferrer"><img id='baldur' src={Baldur} loading="lazy" alt='' /></a>
                     </div>
                     <p className='tech-stack-title'>
                         Tech Stack:
