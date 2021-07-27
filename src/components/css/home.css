@@ -1,0 +1,8 @@
+.title, .lina {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #2a9d8f;
+    font-size: large;
+    font-family: 'Raleway', sans-serif;
+}

@@ -2,15 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 
 
-.title, .lina {
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    color: #2a9d8f;
-    font-size: 1vw;
-    font-family: 'Raleway', sans-serif;
-}
-
 .lina {
     margin-bottom: 40px;
 }

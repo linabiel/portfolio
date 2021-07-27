@@ -10,13 +10,6 @@
     flex-grow: 1;
 }
 
-@media (min-width:320px) and (max-width:425px) {
-    #main-project {
-        margin: 5vw;
-        display:flex;
-        flex-direction: column;}
-}
-
 .link {
     text-align: center;
     list-style: none;

@@ -33,11 +33,6 @@ a:active {
     color: black;
 }
 
-.slick-prev:before,
-.slick-next:before {
-    color: #fdfcdc; 
-    font-size: 65px;
-}
 
 
   
