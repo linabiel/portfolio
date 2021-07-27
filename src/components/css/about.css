@@ -14,6 +14,8 @@
     flex-direction: column;
     font-size: large;
     font-weight: 300;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
 }
 
 .cc-grad {
@@ -21,7 +23,6 @@
     flex-wrap: wrap;
     justify-content: center;
     color: #00f5d4;
-    margin: 50px;
     text-decoration: none;
 }
 

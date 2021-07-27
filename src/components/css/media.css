@@ -1,5 +1,5 @@
 /* Nav Bar page */
-@media (min-width:280px) and (max-width:800px) {
+@media (min-width: 280px) and (max-width: 1024px) {
     /* Nav Bar */
     .nav-bar {
         display: flex;
@@ -17,14 +17,15 @@
     }
 
     .cc-grad {
-        margin: 1vh;
+        margin: 2vh;
     }
 
     /* Home page */
     .carousel, .image {
-        margin: 5vw;
+        margin: auto;
         width: 90%;
         height: 100%;
+        margin-top: 1vh;
     }
 
     .title, .lina {
