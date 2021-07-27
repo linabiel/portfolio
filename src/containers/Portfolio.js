@@ -12,6 +12,7 @@ import '../components/css/carousel.css';
 import '../components/css/about.css';
 import '../components/css/project.css';
 import '../components/css/footer.css';
+import '../components/css/media.css';
 
 
 class Portfolio extends Component {
@@ -35,7 +36,6 @@ class Portfolio extends Component {
                             <li className='nav-bar-item'><Link className='nav-bar-item' to="/about">About</Link></li>
                             <li className='nav-bar-item'><Link className='nav-bar-item' to="/projects">Projects</Link></li>
                         </div>
-
                     </div>
 
 
