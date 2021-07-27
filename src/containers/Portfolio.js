@@ -31,9 +31,9 @@ const Portfolio = () => {
                         </div>
 
                         <div className='nav-bar'>
-                            <li className='nav-bar-item'><Link className='nav-bar-item' to="/portfolio">Home</Link></li>
-                            <li className='nav-bar-item'><Link className='nav-bar-item' to="/portfolio/about">About</Link></li>
-                            <li className='nav-bar-item'><Link className='nav-bar-item' to="/portfolio/projects">Projects</Link></li>
+                            <li className='nav-bar-item'><Link className='nav-bar-item' to="/">Home</Link></li>
+                            <li className='nav-bar-item'><Link className='nav-bar-item' to="/about">About</Link></li>
+                            <li className='nav-bar-item'><Link className='nav-bar-item' to="/projects">Projects</Link></li>
                         </div>
                     </div>
 
@@ -41,9 +41,9 @@ const Portfolio = () => {
 
                     <div id='main'>
                         <Switch>
-                            <Route id='main-home' exact path="/portfolio"> <Home /> </Route>
-                            <Route id='main-about' exact path="/portfolio/about"> <About /> </Route>
-                            <Route id='main-projects' exact path="/portfolio/projects"> <Projects /> </Route>
+                            <Route id='main-home' exact path="/"> <Home /> </Route>
+                            <Route id='main-about' exact path="/about"> <About /> </Route>
+                            <Route id='main-projects' exact path="/projects"> <Projects /> </Route>
                         </Switch>
                     </div>
 
