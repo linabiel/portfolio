@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+import React from "react";
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
 
 
@@ -16,14 +16,12 @@ import '../components/css/footer.css';
 import '../components/css/media.css';
 
 
-class Portfolio extends Component {
-
-    render() {
+const Portfolio = () => {
+    
 
         return (
 
             <>
-
                 <Router>
 
                     <div className='nav-bar'>
@@ -43,9 +41,9 @@ class Portfolio extends Component {
 
                     <div id='main'>
                         <Switch>
-                            <Route id='main-home' exact path="/portfolio" component={Home}> <Home /> </Route>
-                            <Route id='main-about' exact path="/portfolio/about" component={About}> <About /> </Route>
-                            <Route id='main-projects' exact path="/portfolio/projects" component={Projects}> <Projects /> </Route>
+                            <Route id='main-home' exact path="/portfolio"> <Home /> </Route>
+                            <Route id='main-about' exact path="/portfolio/about"> <About /> </Route>
+                            <Route id='main-projects' exact path="/portfolio/projects"> <Projects /> </Route>
                         </Switch>
                     </div>
 
@@ -53,11 +51,9 @@ class Portfolio extends Component {
 
 
                 <footer>&copy; 2021 Lina Biel</footer>
-
             </>
 
         )
-    }
 }
 
 export default Portfolio;
