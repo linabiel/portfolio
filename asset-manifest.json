@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c19d8212.chunk.css",
-    "main.js": "/portfolio/static/js/main.3a44788f.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.3a44788f.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.439d9470.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.439d9470.js.map",
+    "main.css": "/portfolio/static/css/main.8ccc9ac1.chunk.css",
+    "main.js": "/portfolio/static/js/main.29f3edf1.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.29f3edf1.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.b1d5f515.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.b1d5f515.js.map",
     "static/css/2.b183c589.chunk.css": "/portfolio/static/css/2.b183c589.chunk.css",
-    "static/js/2.0bcb0cfa.chunk.js": "/portfolio/static/js/2.0bcb0cfa.chunk.js",
-    "static/js/2.0bcb0cfa.chunk.js.map": "/portfolio/static/js/2.0bcb0cfa.chunk.js.map",
-    "static/js/3.7e851434.chunk.js": "/portfolio/static/js/3.7e851434.chunk.js",
-    "static/js/3.7e851434.chunk.js.map": "/portfolio/static/js/3.7e851434.chunk.js.map",
+    "static/js/2.7cab9d5e.chunk.js": "/portfolio/static/js/2.7cab9d5e.chunk.js",
+    "static/js/2.7cab9d5e.chunk.js.map": "/portfolio/static/js/2.7cab9d5e.chunk.js.map",
+    "static/js/3.881a3734.chunk.js": "/portfolio/static/js/3.881a3734.chunk.js",
+    "static/js/3.881a3734.chunk.js.map": "/portfolio/static/js/3.881a3734.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/2.b183c589.chunk.css.map": "/portfolio/static/css/2.b183c589.chunk.css.map",
-    "static/css/main.c19d8212.chunk.css.map": "/portfolio/static/css/main.c19d8212.chunk.css.map",
-    "static/js/2.0bcb0cfa.chunk.js.LICENSE.txt": "/portfolio/static/js/2.0bcb0cfa.chunk.js.LICENSE.txt",
+    "static/css/main.8ccc9ac1.chunk.css.map": "/portfolio/static/css/main.8ccc9ac1.chunk.css.map",
+    "static/js/2.7cab9d5e.chunk.js.LICENSE.txt": "/portfolio/static/js/2.7cab9d5e.chunk.js.LICENSE.txt",
     "static/media/project.css": "/portfolio/static/media/weather.3736e064.jpeg",
     "static/media/baldurslide.32119391.jpeg": "/portfolio/static/media/baldurslide.32119391.jpeg",
     "static/media/index.css": "/portfolio/static/media/diagonals.6a94fd4c.jpeg",
@@ -22,10 +22,10 @@
     "static/media/weatherslide.a94d85b7.jpeg": "/portfolio/static/media/weatherslide.a94d85b7.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.439d9470.js",
+    "static/js/runtime-main.b1d5f515.js",
     "static/css/2.b183c589.chunk.css",
-    "static/js/2.0bcb0cfa.chunk.js",
-    "static/css/main.c19d8212.chunk.css",
-    "static/js/main.3a44788f.chunk.js"
+    "static/js/2.7cab9d5e.chunk.js",
+    "static/css/main.8ccc9ac1.chunk.css",
+    "static/js/main.29f3edf1.chunk.js"
   ]
 }
