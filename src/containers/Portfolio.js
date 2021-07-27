@@ -43,9 +43,9 @@ class Portfolio extends Component {
 
                     <div id='main'>
                         <Switch>
-                            <Route id='main-home' exact path="/portfolio" component={Home} />
-                            <Route id='main-about' exact path="/portfolio/about" component={About} />
-                            <Route id='main-projects' exact path="/portfolio/projects" component={Projects} />
+                            <Route id='main-home' exact path="/portfolio" component={Home}> <Home /> </Route>
+                            <Route id='main-about' exact path="/portfolio/about" component={About}> <About /> </Route>
+                            <Route id='main-projects' exact path="/portfolio/projects" component={Projects}> <Projects /> </Route>
                         </Switch>
                     </div>
 
