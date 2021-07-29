@@ -7,13 +7,7 @@ const About = () => {
 
         <div id='main-container'>
             <h2 className='main-about'>
-                I am an inquisitive Software Developer, on a constant mission to expand my
-                knowledge. Throughout my career in the Art and Culture sector, I have developed
-                a strong analytical and critical thinking mindset. Having worked for over 10 years in
-                various roles in Customer Service, I have learnt to approach problems in a tactful,
-                open-minded, and diplomatic manner. As someone who always had an interest in
-                technologies, I am excited to start a career in a new industry, where I can build on
-                my existing skills and bring in the creativity I nourished as a freelance art critic.
+                I am an inquisitive professional who enjoys continuous learning. My creative approach to problem solving inspired me to take on coding. After gaining valuable theoretical knowledge studying for the masters in Information Technology, I felt the program lacked practical skills. The Professional Software Development course at CodeClan filled that gap and gave me the necessary skills to start a new career in tech. While at CodeClan, I mostly enjoyed the creative process of building apps, bouncing ideas with colleagues and fixing bugs.
             </h2>
 
             <h2 className='cc-grad'>
@@ -22,6 +16,33 @@ const About = () => {
 
             <h2 className='main-about'>
                 CodeClan is a 16 week Professional Software Development Course that is accredited by the SQA. 800+ hours of learning in-demand methodology, languages, databases and frameworks. Solo and Group Projects, pair-programming, coding and presenting working apps in under a week.
+            </h2>
+            <h2 className='main-about'>
+                <li>
+                    Learned the importance of version control with Git by pushing and merging different versions of code through the CLI
+                </li>
+                <li>
+                    Gained collaborative experience by pair programming in daily labs and working on multiple group projects
+                </li>
+                <li>
+                    Learnt self-development by researching out new frameworks and libraries
+                    Experienced a full Software Development Life Cycle by planning, creating, testing and deploying apps
+                </li>
+                <li>
+                    Adapted agile methodology with daily stand ups and by learning to modify the MVP  quickly so it is consistent with the time scale and resources
+                </li>
+                <li>
+                    Learnt the importance of Test Driven Development
+                </li>
+                <li>
+                    Used personal experience to build user friendly Full Stack Web Apps
+                </li>
+                <li>
+                    Understand the importance of investing time in learning how to efficiently use developer tools like an IDE
+                </li>
+                <li>
+                    Good with command line tools: git, homebrew, terminal, macOs, zsh, ohmyzsh, tree
+                </li>
             </h2>
         </div>
     )
