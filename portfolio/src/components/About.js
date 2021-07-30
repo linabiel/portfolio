@@ -19,7 +19,7 @@ const About = () => {
             </h2>
             <h2 className='main-about'>
                 <li>
-                    Learned the importance of version control with Git by pushing and merging different versions of code through the CLI
+                    Learnt the importance of version control with Git by pushing and merging different versions of code through the CLI
                 </li>
                 <li>
                     Gained collaborative experience by pair programming in daily labs and working on multiple group projects
