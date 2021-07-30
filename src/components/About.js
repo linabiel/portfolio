@@ -26,7 +26,9 @@ const About = () => {
                 </li>
                 <li>
                     Learnt self-development by researching out new frameworks and libraries
-                    Experienced a full Software Development Life Cycle by planning, creating, testing and deploying apps
+                </li>
+                <li>
+                    Fully experienced Software Development Life Cycle by planning, creating, testing and deploying apps
                 </li>
                 <li>
                     Adapted agile methodology with daily stand ups and by learning to modify the MVP  quickly so it is consistent with the time scale and resources
@@ -38,10 +40,10 @@ const About = () => {
                     Used personal experience to build user friendly Full Stack Web Apps
                 </li>
                 <li>
-                    Understand the importance of investing time in learning how to efficiently use developer tools like an IDE
+                    Understand the benefits of using relevant developer tools, such as IDE, to improve efficiency
                 </li>
                 <li>
-                    Good with command line tools: git, homebrew, terminal, macOs, zsh, ohmyzsh, tree
+                    Good with command line tools: Git, Homebrew, iTerm, macOs, Zsh, Oh My Zsh, Tree
                 </li>
             </h2>
         </div>
