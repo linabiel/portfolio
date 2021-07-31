@@ -16,7 +16,7 @@ const About = () => {
             <h2 className='main-about'>
                 CodeClan is a 16 week Professional Software Development Course that is accredited by the SQA. 800+ hours of learning in-demand methodology, languages, databases and frameworks. Solo and Group Projects, pair-programming, coding and presenting working apps in under a week.
             </h2>
-            <h2 className='main-about'>
+            <h2 id='main-about-skill-list'>
                 <li>
                     Learnt the importance of version control with Git by pushing and merging different versions of code through the CLI
                 </li>
