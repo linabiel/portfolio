@@ -6,7 +6,7 @@ const About = () => {
 
         <div id='main-container'>
             <h2 className='main-about'>
-                A motivated professional who enjoys continuous learning. My creative approach to problem solving inspired me to take on coding. After gaining valuable theoretical knowledge studying for the masters in Information Technology, I felt the program lacked practical skills. The Professional Software Development course at CodeClan filled that gap and gave me the skills necessary to start a new career in tech. While at CodeClan, I mostly enjoyed the creative process of building apps, bouncing ideas with colleagues and fixing bugs.
+                A motivated Software Developer who enjoys continuous learning. My creative approach to problem solving inspired me to take on coding. After gaining valuable theoretical knowledge studying for the masters in Information Technology, I felt the program lacked practical skills. The Professional Software Development course at CodeClan filled that gap and gave me the skills necessary to start a new career in tech. While at CodeClan, I mostly enjoyed the creative process of building apps, bouncing ideas with colleagues and fixing bugs.
             </h2>
 
             <h2 className='cc-grad'>
@@ -16,7 +16,8 @@ const About = () => {
             <h2 className='main-about'>
                 CodeClan is a 16 week Professional Software Development Course that is accredited by the SQA. 800+ hours of learning in-demand methodology, languages, databases and frameworks. Solo and Group Projects, pair-programming, coding and presenting working apps in under a week.
             </h2>
-            <h2 id='main-about-skill-list'>
+            <h2 className='main-about-skill-list'>
+
                 <li>
                     Learnt the importance of version control with Git by pushing and merging different versions of code through the CLI
                 </li>
