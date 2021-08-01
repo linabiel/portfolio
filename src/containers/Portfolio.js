@@ -37,7 +37,6 @@ const Portfolio = () => {
                     </div>
 
 
-
                     <div id='main'>
                         <Switch>
                             <Route id='main-home' exact path="/"> <Home /> </Route>
@@ -47,7 +46,6 @@ const Portfolio = () => {
                     </div>
 
                 </Router>
-
 
                 <footer>&copy; 2021 Lina Biel</footer>
             </>
