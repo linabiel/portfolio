@@ -55,10 +55,9 @@
 
     /* Projects page */
     #main-project {
-        margin: 3vh;
+        margin: 3vh;    
         display:flex;
         flex-direction: column;
     }
-
 
 }
