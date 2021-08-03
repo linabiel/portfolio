@@ -35,15 +35,29 @@
 
     /* About page */
     #main-container {
-        margin: 6vw;
+        margin: 3vh;
         display:flex;
         flex-direction: column;
+        /* text-align: left; */
+    }
+
+    .main-about {
+        padding: 0px;
+    }
+
+    .main-about-skill-list {
+        margin-bottom: 7vh;
+    }
+
+    li {
+        list-style-position: inside;
     }
 
     /* Projects page */
     #main-project {
-        margin: 3vw;
+        margin: 3vh;    
         display:flex;
         flex-direction: column;
     }
+
 }
