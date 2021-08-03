@@ -6,7 +6,7 @@ const About = () => {
 
         <div id='main-container'>
             <h2 className='main-about'>
-                A motivated professional who enjoys continuous learning. My creative approach to problem solving inspired me to take on coding. After gaining valuable theoretical knowledge studying for the masters in Information Technology, I felt the program lacked practical skills. The Professional Software Development course at CodeClan filled that gap and gave me the skills necessary to start a new career in tech. While at CodeClan, I mostly enjoyed the creative process of building apps, bouncing ideas with colleagues and fixing bugs.
+                A motivated Software Development professional, with a background in Art who enjoys continuous learning. My creative approach to problem solving inspired me to train as a developer. I studied a Masters in IT which built my theoretical knowledge and I gained practical skills through embarking on a Professional Software Development course. While at CodeClan, I mostly enjoyed the creative process of building apps, bouncing ideas with colleagues and fixing bugs.
             </h2>
 
             <h2 className='cc-grad'>
