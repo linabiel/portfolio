@@ -39,9 +39,9 @@ const Portfolio = () => {
 
                     <div id='main'>
                         <Switch>
-                            <Route id='main-home' exact path="/"> <Home /> </Route>
-                            <Route id='main-about' exact path="/about"> <About /> </Route>
-                            <Route id='main-projects' exact path="/projects"> <Projects /> </Route>
+                            <Route id='main-home' exact path="/" component={Home} />
+                            <Route id='main-about' exact path="/about" component={About} />
+                            <Route id='main-projects' exact path="/projects" component={Projects} />
                         </Switch>
                     </div>
 

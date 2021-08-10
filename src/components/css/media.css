@@ -56,4 +56,14 @@
         flex-direction: column;
     }
 
+    #travel:hover, #weather:hover, #baldur:hover {
+        transform: scale(1.6);
+    }
+
 }
+
+/* @media (min-width: 280px) and (max-width: 480px) {
+    #travel:hover, #weather:hover, #baldur:hover {
+        transform: scale(1);
+    } */
+
