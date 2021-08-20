@@ -26,6 +26,10 @@
     margin-bottom: 10vh;
 }
 
+li {
+    list-style-position: inside;
+}
+
 .cc-grad {
     display:flex;
     flex-wrap: wrap;

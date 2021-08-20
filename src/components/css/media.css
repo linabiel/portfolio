@@ -49,10 +49,6 @@
         margin-bottom: 7vh;
     }
 
-    li {
-        list-style-position: inside;
-    }
-
     /* Projects page */
     #main-project {
         margin: 3vh;    
