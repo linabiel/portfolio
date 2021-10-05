@@ -1,4 +1,0 @@
-https://linabiel.github.io/portfolio/
-https://linabiel.github.io/portfolio/?/about
-https://linabiel.github.io/portfolio/?/projects
-https://linabiel.github.io/portfolio/?/sitemap-link-generator
